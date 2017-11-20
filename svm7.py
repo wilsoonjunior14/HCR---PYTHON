@@ -16,8 +16,22 @@ from sklearn import metrics
 
 a = time.time();
 
+#   ESTRUTURA DO PROJETO
+#   sources:
+#           - DATA (FOLDER)
+#               - TRAINING (FOLDERS)
+#               - TESTING (FOLDERS)
+#           - MAIN (FOLDER)
+#               - svm7.py (FILE MAIN)
+#               - caracteristicas.py (FILE)
+#               - process.py (FILE)
+#
+#
 # carregando as imagens de treinamento da base de dados MNIST
 # situada em um diretorio externo ao de execucao desse arquivo
+#
+#
+
 atributos = [];
 saidas = [];
 atributos_saida = [0,1,2,3,4,5,6,7,8,9];
